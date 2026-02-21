@@ -1,17 +1,19 @@
 {
-  "name": "payroll-dapp",
+  "name": "medichain-ai",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI-Powered Diagnostic Models on the Edge - Token-gated marketplace for FDA-cleared AI models",
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "deploy:sepolia": "hardhat run scripts/deploy.ts --network baseSepolia",
-    "deploy:base": "hardhat run scripts/deploy.ts --network base"
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network baseSepolia",
+    "deploy:base": "hardhat run scripts/deploy.js --network base",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:preview": "cd frontend && npm run preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["blockchain", "healthcare", "ai", "nft", "defi", "medical", "diagnostics"],
+  "author": "King Z",
+  "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^4.0.4",
     "@nomicfoundation/hardhat-toolbox": "^6.1.0",
