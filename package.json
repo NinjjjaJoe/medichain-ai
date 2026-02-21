@@ -5,8 +5,8 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "deploy:sepolia": "hardhat run scripts/deploy.js --network baseSepolia",
-    "deploy:base": "hardhat run scripts/deploy.js --network base",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "deploy:base": "hardhat run scripts/deploy.ts --network base",
     "frontend:dev": "cd frontend && npm run dev",
     "frontend:build": "cd frontend && npm run build",
     "frontend:preview": "cd frontend && npm run preview"
